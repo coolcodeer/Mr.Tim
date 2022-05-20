@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    text-align: center;
+    padding-top:550px;
+    background-color:rgb(255, 223, 176);
+}
+.ten{
+    border-radius: 50%;
+}
+#uno{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    bottom:0;
+    display:table;
+    background:linear-gradient(#00e5ff 0%,#ff004c 100%);
+    z-index:9;
+    
+}
+h1{
+    font-size: 30px;
+    font-family:monospace;
+    font-weight:bolder;
+    color:black;
+}
+h2{
+    font-size: 20px;
+    font-family:monospace;
+    font-weight:bolder;
+    color:rgb(20, 19, 19);
+}
+p{
+    font-size: 15px;
+    font-family:monospace;
+    font-weight:bolder;
+    color:black;
+}
+#eleven{
+    padding:50px;
+    font-family:monospace;
+}
+.lien{
+    height:6px;
+    background-color:rgb(128, 95, 49);
+    width:70px;
+    margin:8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.uls{
+    list-style:none;
+    top:0px;
+    position:fixed;
+    z-index:10;
+    cursor:pointer;
+    background-color:white ;
+    margin-top:0px;
+    width:100%;
+
+}
+.il{
+    padding-left:9px;
+    padding-right:9px;
+    font-size:16.01px;
+    font-family: 'Dancing Script', cursive;
+    display:inline;
+}
+.il:hover{
+    background-color:rgb(127, 249, 255);
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior:smooth;
+}
+#writing a{
+    text-decoration: underline;
+    color:black;
+}
+#contact iframe{
+     width:100%;
+
+}
+.contact_1 h3{
+    display:inline;
+}
